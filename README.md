@@ -32,7 +32,7 @@ source myenv/Scripts/activate
 
 **3. Install dependencies**
 ```bash
-pip install fastapi uvicorn sqlalchemy pydantic
+pip install -r requirements.txt
 ```
 
 **4. Run the server**
@@ -41,9 +41,7 @@ uvicorn main:app --reload
 ```
 
 **5. Open Swagger UI**
-```
 http://127.0.0.1:8000/docs
-```
 
 ## API Endpoints
 
